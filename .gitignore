@@ -1,0 +1,57 @@
+# Python virtual environments
+/.venv/
+/venv/
+/env/
+/rag-venv/
+
+# Python cache and generated files
+__pycache__/
+rag/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Test, coverage, and type-checker output
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+
+# RAG vector-store data
+/chroma_db/
+
+# Local environment and configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Build and packaging output
+.build/
+build/
+dist/
+*.egg-info/
+
+# Editor settings
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Operating-system files
+.DS_Store
+Thumbs.db
